@@ -20,8 +20,8 @@ public class NoProTest {
         driver.get("https://planoplan.com");
         mainPage = new MainPage(driver);
         mainPage.clickSignInButton1();
-        mainPage.typeUserName("for_testbox_1@mail.ru");
-        mainPage.typePassword("12345");
+        mainPage.typeUserName("@mail");
+        mainPage.typePassword("password");
         mainPage.clickSignInButton2();
         mainPage.clickLinkToStore();
 
