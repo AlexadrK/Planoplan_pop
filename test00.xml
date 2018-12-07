@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="StoreTestSuite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+
+    </listeners>
+
+    <test name="StoreTest">
+        <parameter name="browser" value="ChromeDriver"/>
+        <classes>
+            <class name="NoProTest"/>
+            <class name="ProTest">
+
+                <methods>
+                    <include name="StoreTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

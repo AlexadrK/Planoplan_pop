@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StoreTest"
+           tests="28"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="43,646">
+  <properties />
+  
+  
+            <testcase name="tenStandartPanoramaDiscount10Test" time="1,467" classname="NoProTest" />
+                <testcase name="improvedPanoramaTest" time="1,523" classname="NoProTest" />
+                <testcase name="standartPanoramaTest" time="1,538" classname="NoProTest" />
+                <testcase name="tenHdRendersDiscount10Test" time="1,495" classname="NoProTest" />
+                <testcase name="tenStandartRendersDiscount10Test" time="1,557" classname="NoProTest" />
+                <testcase name="oneMonthProTest" time="1,504" classname="NoProTest" />
+                <testcase name="tenTexturePlacesDiscount10Test" time="1,492" classname="NoProTest" />
+                <testcase name="twentyHdRenderDiscount20Test" time="1,519" classname="NoProTest" />
+                <testcase name="fourKRenderTest" time="1,554" classname="NoProTest" />
+                <testcase name="projectPlaceTest" time="1,556" classname="NoProTest" />
+                <testcase name="standartRenderTest" time="1,506" classname="NoProTest" />
+                <testcase name="tenFourKRendersDiscount10Test" time="1,844" classname="NoProTest" />
+                <testcase name="twentyFullHdRenderDiscount20Test" time="1,634" classname="NoProTest" />
+                <testcase name="oneYearProTest" time="1,594" classname="NoProTest" />
+                <testcase name="oneMyPlanTest" time="1,562" classname="NoProTest" />
+                <testcase name="fullHdRenderTest" time="2,036" classname="NoProTest" />
+                <testcase name="starterPackDiscount60Test" time="1,546" classname="NoProTest" />
+                <testcase name="tenFullHdRendersDiscount10Test" time="1,495" classname="NoProTest" />
+                <testcase name="fourKRendersDiscount20Test" time="1,550" classname="NoProTest" />
+                <testcase name="tenImprovedPanoramaDiscount10Test" time="1,535" classname="NoProTest" />
+                <testcase name="proffPackDiscount60Test" time="1,631" classname="NoProTest" />
+                <testcase name="sixMonthProTest" time="1,498" classname="NoProTest" />
+                <testcase name="texturePlaceTest" time="1,501" classname="NoProTest" />
+                <testcase name="twentyStandartPanoramaDiscount20Test" time="1,485" classname="NoProTest" />
+                <testcase name="tenProjectPlacesDiscount10Test" time="1,463" classname="NoProTest" />
+                <testcase name="twentyImprovedPanoramaDiscount20Test" time="1,495" classname="NoProTest" />
+                <testcase name="twentyStandardRenderDiscount20Test" time="1,525" classname="NoProTest" />
+                <testcase name="hdRenderTest" time="1,541" classname="NoProTest" />
+      
+</testsuite>

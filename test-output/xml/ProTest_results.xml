@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StoreTest"
+           tests="21"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="89,646">
+  <properties />
+  
+  
+            <testcase name="proVidjetMyDecorationTest" time="3,995" classname="ProTest" />
+                <testcase name="proVidjetVrFlatTest" time="4,088" classname="ProTest" />
+                <testcase name="proVidjet3D360Test" time="4,010" classname="ProTest" />
+                <testcase name="improvedPanoramaTest" time="3,981" classname="ProTest" />
+                <testcase name="fullHdRenderTest" time="4,653" classname="ProTest" />
+                <testcase name="proVidjetVirtualTourTest" time="4,057" classname="ProTest" />
+                <testcase name="proVidjetThreeDViewTest" time="5,324" classname="ProTest" />
+                <testcase name="texturePlaceTest" time="4,145" classname="ProTest" />
+                <testcase name="oneMonthProTest" time="4,033" classname="ProTest" />
+                <testcase name="sixMonthProTest" time="4,276" classname="ProTest" />
+                <testcase name="proVidjetQrCodeTest" time="5,082" classname="ProTest" />
+                <testcase name="projectPlaceTest" time="3,989" classname="ProTest" />
+                <testcase name="oneYearProTest" time="4,153" classname="ProTest" />
+                <testcase name="proVidjetPlaceTest" time="5,339" classname="ProTest" />
+                <testcase name="proVidjetTwoDPlanTest" time="3,912" classname="ProTest" />
+                <testcase name="fourKRenderTest" time="4,018" classname="ProTest" />
+                <testcase name="hdRenderTest" time="3,935" classname="ProTest" />
+                <testcase name="standartPanoramaTest" time="4,447" classname="ProTest" />
+                <testcase name="proVidjetViewFromUpTest" time="4,145" classname="ProTest" />
+                <testcase name="standartRenderTest" time="3,997" classname="ProTest" />
+                <testcase name="proVidjetFreelancerRenderTest" time="4,067" classname="ProTest" />
+      
+</testsuite>
