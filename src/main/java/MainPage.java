@@ -9,7 +9,7 @@ public class MainPage {
     }
 
     //private By signInButton1 = By.xpath("//*[@id=\"header\"]/div[2]/ul/li[7]/a/span");//кнопка вызывающая окно логина
-    private By signInButton1 = By.xpath("//*[@id=\"header\"]/div/ul/li[7]/a/span");//кнопка вызывающая окно логина
+    private By signInButton1 = By.xpath(".//a[@href='#login']");//кнопка вызывающая окно логина
     private By signInButton2 = By.xpath("//*[@id=\"login_submit\"]/span/span");//кнопка подтверждения пароля
     private By userNameField = By.xpath("//*[@id=\"login_mail\"]");//поле логина
     private By passwordField = By.xpath("//*[@id=\"login_pass\"]");//поле пароля

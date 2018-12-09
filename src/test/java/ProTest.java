@@ -39,9 +39,9 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("10.00 RUB", prise);
-    }
+        String price = storePage.getPriseText();
+        Assert.assertEquals("10.00 RUB", price);
+}
 
     @Test
     public void texturePlaceTest() {
@@ -52,8 +52,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("10.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("10.00 RUB", price);
     }
 
     @Test
@@ -65,8 +65,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("20.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("20.00 RUB", price);
     }
 
     @Test
@@ -78,8 +78,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("40.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("40.00 RUB", price);
     }
 
     @Test
@@ -91,8 +91,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("80.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("80.00 RUB", price);
     }
 
     @Test
@@ -104,8 +104,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("320.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("320.00 RUB", price);
     }
 
     @Test
@@ -117,8 +117,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("75.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("75.00 RUB", price);
     }
 
     @Test
@@ -130,8 +130,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("125.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("125.00 RUB", price);
     }
     @Test
     public void oneMonthProTest() {
@@ -142,8 +142,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("350.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("350.00 RUB", price);
     }
 
     @Test
@@ -155,8 +155,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("1,750.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("1,750.00 RUB", price);
     }
 
     @Test
@@ -168,8 +168,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("3,150.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("3,150.00 RUB", price);
     }
 
 
@@ -182,8 +182,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("25.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("25.00 RUB", price);
     }
 
     @Test
@@ -195,8 +195,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("50.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("50.00 RUB", price);
     }
 
     @Test
@@ -208,8 +208,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("150.00 RUB", prise);//prise per 1 camera
+        String price = storePage.getPriseText();
+        Assert.assertEquals("150.00 RUB", price);//price per 1 camera
     }
 
     @Test
@@ -221,8 +221,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("10.00 RUB", prise); //price per 1 frame
+        String price = storePage.getPriseText();
+        Assert.assertEquals("10.00 RUB", price); //price per 1 frame
     }
 
 
@@ -235,8 +235,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("75.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("75.00 RUB", price);
     }
 
     @Test
@@ -248,8 +248,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("75.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("75.00 RUB", price);
     }
 
     @Test
@@ -261,8 +261,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("1,250.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("1,250.00 RUB", price);
     }
 
     @Test
@@ -274,8 +274,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("5,000.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("5,000.00 RUB", price);
     }
 
     @Test
@@ -287,8 +287,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("10,000.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("10,000.00 RUB", price);
     }
 
     @Test
@@ -300,8 +300,8 @@ public class ProTest {
         storePage.clickPayButton();
         String paymentHeading = storePage.getHeadingText();
         Assert.assertEquals("Оплата банковской картой", paymentHeading);
-        String prise = storePage.getPriseText();
-        Assert.assertEquals("1,000.00 RUB", prise);
+        String price = storePage.getPriseText();
+        Assert.assertEquals("1,000.00 RUB", price);
     }
 
     @AfterMethod
