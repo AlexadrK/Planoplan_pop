@@ -24,8 +24,8 @@ public class ProTest {
         driver.get("https://planoplan.com");
         mainPage = new MainPage(driver);
         mainPage.clickSignInButton1();
-        mainPage.typeUserName("alexander.kashin@planoplan.com");
-        mainPage.typePassword("662340");
+        mainPage.typeUserName("Email");
+        mainPage.typePassword("password");
         mainPage.clickSignInButton2();
         mainPage.clickLinkToProStore();
     }
